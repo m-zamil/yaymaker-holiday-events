@@ -22,5 +22,36 @@ window.onload = function () {
           },
         },
       });
+      $(".carousel-2").owlCarousel({
+        loop:true,
+        margin: 20,
+        nav: false,
+        dots: true,
+        center: true,
+        stagePadding: 0,
+        responsive: {
+          0: {
+            items: 1.3,
+            stagePadding: 20,
+          },
+          500:{
+            items:1.5,
+          },
+          700:{
+            items:2,
+          },
+          767:{
+            items:3,
+          },
+          960: {
+            margin:50,
+            items: 3,
+            loop:true,
+            center:false,
+            dotsEach: 1,
+            stagePadding:0
+          },
+        },
+      });
     });
   };
