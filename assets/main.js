@@ -10,15 +10,19 @@ window.onload = function () {
         stagePadding: 0,
         responsive: {
           0: {
-            items: 1.2,
-            stagePadding: 20,
+            items: 1,
+            stagePadding: 50,
+            autoHeight:true,
+
           },
           960: {
             items: 3,
             nav:false,
             loop:false,
             center:false,
-            stagePadding:0
+            stagePadding:0,
+            autoHeight:false,
+
           },
         },
       });

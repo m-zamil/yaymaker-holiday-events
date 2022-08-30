@@ -392,7 +392,7 @@ h3.section__title {
   width: 100%;
   width: 85%;
   width: calc(70% + 74px);
-  top: 17%;
+  top: 250px;
 }
 
 .package__option h3 {
